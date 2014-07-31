@@ -18,9 +18,9 @@ public class Marks {
 	}
 	
 	public void display(double[][] marks){
-		for(int i=0;i<marks.length;i++){
-			for(int j=0;j<marks[0].length;j++){
-				System.out.print(marks[i][j]+"\t");
+		for(double[] d:marks){
+			for(double e:d){
+				System.out.print(e+"\t");
 			}
 			System.out.println();
 		}
